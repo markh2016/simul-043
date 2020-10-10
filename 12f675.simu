@@ -1,0 +1,27 @@
+<circuit speed="1000000" noLinAcc="5" animate="0" type="simulide_0.4" reactStep="50">
+ 
+Ground-6: 
+<item id="Ground-6" Show_id="false" hflip="1" labely="8" labelx="-16" valLabelx="0" objectName="Ground-6" rotation="0" x="-192" valLabely="0" valLabRot="0" vflip="1" y="-76" itemtype="Ground" labelrot="0"/>
+ 
+Resistor-3: 
+<item x="-212" valLabelx="-16" valLabely="6" vflip="1" hflip="1" Show_id="false" rotation="0" labelrot="0" objectName="Resistor-3" labelx="-12" Resistance="100" Unit=" Ω" valLabRot="0" y="-160" id="Resistor-3" Show_res="true" itemtype="Resistor" labely="-20"/>
+ 
+Led-2: 
+<item x="-192" valLabelx="0" valLabely="0" vflip="1" hflip="1" Show_id="false" rotation="90" Grounded="false" labelrot="0" objectName="Led-2" labelx="-16" Color="0" Resistance="0.6" Threshold="2.4" valLabRot="0" y="-120" MaxCurrent="0.03" id="Led-2" itemtype="Led" labely="-24"/>
+ 
+pic12f675-1: 
+<item x="-280" valLabelx="0" valLabely="0" vflip="1" hflip="1" Show_id="true" rotation="0" Logic_Symbol="false" labelrot="0" objectName="pic12f675-1" Program="" labelx="0" valLabRot="0" eeprom="" y="-192" Mhz="4" id="pic12f675-1" itemtype="PIC" Auto_Load="true" labely="-20"/>
+ 
+Connector-4: 
+<item x="-228" valLabelx="0" valLabely="0" vflip="1" hflip="1" Show_id="false" rotation="0" labelrot="0" objectName="Connector-4" endpinid="pic12f675-1-GP2" labelx="-16" pointList="-228,-160,-240,-160" startpinid="Resistor-3-lPin" valLabRot="0" enodeid="enode-4" y="-160" id="Connector-4" itemtype="Connector" labely="-24"/>
+ 
+Connector-5: 
+<item x="-196" valLabelx="0" valLabely="0" vflip="1" hflip="1" Show_id="false" rotation="0" labelrot="0" objectName="Connector-5" endpinid="Led-2-lPin" labelx="-16" pointList="-196,-160,-192,-160,-192,-136" startpinid="Resistor-3-rPin" valLabRot="0" enodeid="enode-5" y="-160" id="Connector-5" itemtype="Connector" labely="-24"/>
+ 
+Connector-7: 
+<item x="-192" valLabelx="0" valLabely="0" vflip="1" hflip="1" Show_id="false" rotation="0" labelrot="0" objectName="Connector-7" endpinid="Led-2-rPin" labelx="-16" pointList="-192,-92,-192,-104" startpinid="Ground-6-Gnd" valLabRot="0" enodeid="enode-7" y="-92" id="Connector-7" itemtype="Connector" labely="-24"/>
+ 
+PlotterWidget: 
+<item cursor="" rect="" minimized="false" contextMenuPolicy="1" MaxVolt="500" width="200" fullScreen="false" accessibleDescription="" autoFillBackground="false" childrenRegion="" minimumSize="" toolTip="" accessibleName="" Scale="1" normalGeometry="" maximumWidth="1000" styleSheet="" maximumSize="" Tracks="1" MinVolt="-500" statusTip="" inputMethodHints="0" updatesEnabled="true" font="Noto Sans,10,-1,5,50,0,0,0,0,0,Regular" toolTipDuration="-1" whatsThis="" x="0" frameSize="" height="200" geometry="" windowFilePath="" windowIconText="" focus="false" maximumHeight="200" itemtype="Plotter" minimumHeight="200" size="" frameGeometry="" pos="" layoutDirection="0" sizeHint="" windowModality="0" windowModified="false" childrenRect="" sizeIncrement="" windowIcon="" y="0" maximized="false" isActiveWindow="false" sizePolicy="" locale="" acceptDrops="false" enabled="true" focusPolicy="0" windowTitle="" mouseTracking="false" baseSize="" visible="false" modal="false" objectName="PlotterWidget" minimumWidth="200" tabletTracking="false" windowOpacity="1" palette="" minimumSizeHint=""/>
+ 
+</circuit>
